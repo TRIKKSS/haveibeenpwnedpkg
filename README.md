@@ -36,7 +36,7 @@ go get github.com/TRIKKSS/haveibeenpwnedpkg
 ```go
 import "github.com/TRIKKSS/haveibeenpwnedpkg"
 
-haveibeenpwnpkg.HaveibeenpwnPassword("password") // return how many times the password has been pwn and errors
+haveibeenpwnedpkg.HaveibeenpwnPassword("password") // return how many times the password has been pwn and errors
 ```
 
 ### **EXAMPLE**
@@ -51,7 +51,7 @@ import(
 )
 func main() {
     if len(os.Args) != 2 {
-        fmt.Printf("usage : %s password", os.Args[0])
+        fmt.Printf("usage : %s password\n", os.Args[0])
         os.Exit(1)
     }
     how, err := haveibeenpwnedpkg.HaveibeenpwnPassword(os.Args[1]/*your password*/)
@@ -61,7 +61,7 @@ func main() {
         panic(err)
     }
     if how > 0{
-        fmt.Println("your password has been pwn " + how + " times.")
+        fmt.Println("your password has been pwn", how, "times.")
     } else {
         fmt.Println("password safe.")
     }
