@@ -19,7 +19,7 @@ now, we need to find your string without the five first characters in the list o
 
 on your browser : ctrl + f and search this string 1e4c9b93f3f0682250b6cf8331b7ee68fd8 (the end of the password hash)
 
-![example image](image/hashFound.png)
+![example image](images/hashFound.png)
 
 here you can see the password password has been pwn 3861493 times.
 
