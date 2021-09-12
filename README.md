@@ -28,13 +28,13 @@ this API is very clever because your password or its hash is never sent in clear
 ### **INSTALLATION**
 
 ```
-go get github.com/TRIKKSS/haveibeenpwnpkg
+go get github.com/TRIKKSS/haveibeenpwnedpkg
 ```
 
 ### **USAGE OF MY PACKAGE**
 
 ```go
-import "github.com/TRIKKSS/haveibeenpwnpkg"
+import "github.com/TRIKKSS/haveibeenpwnedpkg"
 
 haveibeenpwnpkg.HaveibeenpwnPassword("password") // return how many times the password has been pwn and errors
 ```
@@ -45,7 +45,7 @@ haveibeenpwnpkg.HaveibeenpwnPassword("password") // return how many times the pa
 package main 
 
 import(
-    "github.com/TRIKKSS/haveibeenpwnpkg"
+    "github.com/TRIKKSS/haveibeenpwnedpkg"
     "fmt"
     "os"
 )
