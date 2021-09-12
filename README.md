@@ -54,7 +54,7 @@ func main() {
         fmt.Printf("usage : %s password", os.Args[0])
         os.Exit(1)
     }
-    how, err := haveibeenpwnpkg.HaveibeenpwnPassword(os.Args[1]/*your password*/) 
+    how, err := haveibeenpwnedpkg.HaveibeenpwnPassword(os.Args[1]/*your password*/)
 
     if err != nil {
         /* check errors */
