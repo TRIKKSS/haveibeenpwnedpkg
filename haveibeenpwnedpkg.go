@@ -1,4 +1,4 @@
-package haveibeenpwned
+package haveibeenpwnedpkg
 
 import(
 	"io/ioutil"
